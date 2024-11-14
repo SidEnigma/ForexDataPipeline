@@ -1,16 +1,9 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# ForexDataPipeline
-Coding Production Grade Data pipelines using Airflow
-=======
-<<<<<<< HEAD
-# ForexDataPipeline
 Coding Production Grade Data pipelines using Airflow
 =======
 Overview
 ========
 
-Welcome to Astronomer! This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
+This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
 
 Project Contents
 ================
@@ -50,14 +43,3 @@ Deploy Your Project to Astronomer
 =================================
 
 If you have an Astronomer account, pushing code to a Deployment on Astronomer is simple. For deploying instructions, refer to Astronomer documentation: https://www.astronomer.io/docs/astro/deploy-code/
-
-Contact
-=======
-
-The Astronomer CLI is maintained with love by the Astronomer team. To report a bug or suggest a change, reach out to our support.
->>>>>>> 99de6c4 (Initial commit)
->>>>>>> a18e084 (Initial commit)
-=======
-# ForexDataPipeline
-Data Pipeline to transform stock market data using Airflow
->>>>>>> c8060dd6e303167eb1e1da688ef566c5e612e503
