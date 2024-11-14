@@ -21,9 +21,8 @@ Key Stages of Pipeline Orchestration:
 **Monitoring:** Using Elasticsearch and Grafana to monitor Airflow performance.
 **Security:** Secured Airflow with authentication, encryption, and the RBAC UI.
 
+![Airflow Pipeline2](https://github.com/user-attachments/assets/0241aa80-ceb5-4e66-a4ba-36e1ee42d15b)
 
-
-![Airflow Pipeline](https://github.com/user-attachments/assets/9584da8e-e6cb-4108-97a5-dadd19b0e225)
 
 
 Project Contents
