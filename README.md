@@ -1,5 +1,8 @@
 Coding Production Grade Data pipelines using Airflow
 =======
+Using Airflow for data orchestration 
+
+
 Overview
 ========
 
@@ -7,17 +10,18 @@ This project was generated after you ran 'astro dev init' using the Astronomer C
 
 Key Stages
 ================
-Key stages of Pipeline orchestration involve:
-- Scaling Airflow through different executors such as the Local Executor, the Celery Executor, and the Kubernetes Executor
-- Kubernetes cluster in the cloud with AWS EKS and Rancher to use Airflow and the Kubernetes Executor
-- Storing and fetching stock prices in Minio buckets
-- Transforming data using Spark in a separate Docker container contained inside the Airflow container
-- Loading the transformed data to a Postgres data warehouse
-- Visualizing key metrics using Metabase
-- Notification of failures in Slack
-- Monitoring Airflow with Elasticsearch and Grafana
-- Securing Airflow with authentication, crypto and the RBAC UI
-  ![pipeline -png](https://github.com/user-attachments/assets/ef444671-6eef-4850-a8b7-2faaba33b037)
+Key Stages of Pipeline Orchestration:
+**Scaling Airflow:** Configured with different executors, including Local Executor, Celery Executor, and Kubernetes Executor.
+**Kubernetes Cluster Setup:** Utilizing AWS EKS and Rancher to run Airflow with the Kubernetes Executor.
+**Data Storage:** Stock prices stored and fetched using Minio buckets.
+**Data Transformation:** Processed with Spark in a dedicated Docker container within the Airflow environment.
+**Data Warehouse:** Loaded transformed data into a Postgres data warehouse.
+**Data Visualization:** Key metrics visualized using Metabase.
+**Failure Notifications:** Integrated with Slack for real-time alerts on failures.
+**Monitoring:** Using Elasticsearch and Grafana to monitor Airflow performance.
+**Security:** Secured Airflow with authentication, encryption, and the RBAC UI.
+
+![Airflow pipeline](https://github.com/user-attachments/assets/95103d3c-4262-4962-b6a5-7f67fe224ef0)
 
 
 
