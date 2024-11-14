@@ -11,15 +11,15 @@ This project was generated after you ran 'astro dev init' using the Astronomer C
 Key Stages
 ================
 Key Stages of Pipeline Orchestration:
-**Scaling Airflow:** Configured with different executors, including Local Executor, Celery Executor, and Kubernetes Executor.
-**Kubernetes Cluster Setup:** Utilizing AWS EKS and Rancher to run Airflow with the Kubernetes Executor.
-**Data Storage:** Stock prices stored and fetched using Minio buckets.
-**Data Transformation:** Processed with Spark in a dedicated Docker container within the Airflow environment.
-**Data Warehouse:** Loaded transformed data into a Postgres data warehouse.
-**Data Visualization:** Key metrics visualized using Metabase.
-**Failure Notifications:** Integrated with Slack for real-time alerts on failures.
-**Monitoring:** Using Elasticsearch and Grafana to monitor Airflow performance.
-**Security:** Secured Airflow with authentication, encryption, and the RBAC UI.
+- **Scaling Airflow:** Configured with different executors, including Local Executor, Celery Executor, and Kubernetes Executor.
+- **Kubernetes Cluster Setup:** Utilizing AWS EKS and Rancher to run Airflow with the Kubernetes Executor.
+- **Data Storage:** Stock prices stored and fetched using Minio buckets.
+- **Data Transformation:** Processed with Spark in a dedicated Docker container within the Airflow environment.
+- **Data Warehouse:** Loaded transformed data into a Postgres data warehouse.
+- **Data Visualization:** Key metrics visualized using Metabase.
+- **Failure Notifications:** Integrated with Slack for real-time alerts on failures.
+- **Monitoring:** Using Elasticsearch and Grafana to monitor Airflow performance.
+- **Security:** Secured Airflow with authentication, encryption, and the RBAC UI.
 
 ![Airflow Pipeline2](https://github.com/user-attachments/assets/0241aa80-ceb5-4e66-a4ba-36e1ee42d15b)
 
