@@ -5,6 +5,22 @@ Overview
 
 This project was generated after you ran 'astro dev init' using the Astronomer CLI. This readme describes the contents of the project, as well as how to run Apache Airflow on your local machine.
 
+Key Stages
+================
+Key stages of Pipeline orchestration involve:
+- Scaling Airflow through different executors such as the Local Executor, the Celery Executor, and the Kubernetes Executor
+- Kubernetes cluster in the cloud with AWS EKS and Rancher to use Airflow and the Kubernetes Executor
+- Storing and fetching stock prices in Minio buckets
+- Transforming data using Spark in a separate Docker container contained inside the Airflow container
+- Loading the transformed data to a Postgres data warehouse
+- Visualizing key metrics using Metabase
+- Notification of failures in Slack
+- Monitoring Airflow with Elasticsearch and Grafana
+- Securing Airflow with authentication, crypto and the RBAC UI
+  ![pipeline -png](https://github.com/user-attachments/assets/ef444671-6eef-4850-a8b7-2faaba33b037)
+
+
+
 Project Contents
 ================
 
