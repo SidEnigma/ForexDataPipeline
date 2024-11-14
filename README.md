@@ -1,6 +1,6 @@
 Coding Production Grade Data pipelines using Airflow
 =======
-Mastering data orchestration with Airflow: Building powerful, scalable DAGs for seamless data workflows
+Mastering data orchestration with Airflow: Building powerful, scalable DAGs for seamless data workflows.
 
 Overview
 ========
